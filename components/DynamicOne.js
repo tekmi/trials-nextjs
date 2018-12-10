@@ -1,0 +1,1 @@
+export default () => <h3>I'm dynamic</h3>;

@@ -1,0 +1,21 @@
+{
+  "name": "ssr_nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 8090",
+    "start": "next start -p 8090",
+    "build": "next build",
+    "export": "npm run build && next export"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-vis": "^1.11.5"
+  }
+}
